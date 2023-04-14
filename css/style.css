@@ -1,0 +1,119 @@
+@font-face {
+    font-family: nexa;
+    src: url('font/nexa-light.ttf');
+  }
+  
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+    font-family: nexa;
+}
+
+/* Splitted menu desktop */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    padding: 60px 160px;
+}
+
+nav ul li a:hover {
+    color: #907a4b;
+  }
+  
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+nav ul li {
+    margin: 0 80px 0 0;
+}
+  
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+  
+nav .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -80px;
+}
+  
+nav .logo img {
+    height: 50px;
+}
+
+/* Styling Headings */
+h2 {
+    font-family: nexa;
+    font-size: 80px;
+    font-weight: 100;
+    line-height: 80px;
+}
+
+#forall {
+    text-align: right;
+} 
+
+#intro {
+    text-align: right;
+    font-size: 25px;
+    padding-right: 160px;
+    padding-left: 160px;
+}
+
+.call-to-action {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-image: url(images/call-to-action-front.png);
+}
+
+.left {
+    width: 50%;
+    height: 100%;
+    background-color: #f0f0f0; /* or any desired color */
+}
+
+.right {
+    width: 50%;
+    height: 100%;
+    background-color: #e0e0e0; /* or any desired color */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#about {
+    margin: 0 40px 0 0;
+    padding: 19px 88px 11px;
+    border-radius: 5px;
+    background-color: #907a4b;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+  
