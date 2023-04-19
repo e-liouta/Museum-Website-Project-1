@@ -115,20 +115,26 @@ nav .logo img {
 .events-exhibitions {
     display: flex;
     justify-content: space-between;
+    background-color: #EFEDE0;
 }
   
 .events, .exhibitions {
     width: calc(50% - 20px); 
     margin: 0 10px; 
-    padding: 200px 160px 200px 75px;
+    
+
 }
 
 .events {
-    float: left;
+    width: 50%;
+    padding: 160px 75px 160px 160px;
+    text-align: left;
 }
-
+  
 .exhibitions {
-    float: right;
+    width: 50%;
+    padding: 160px 160px 160px 75px;
+    text-align: right;
 }
 
 h3 {
@@ -136,18 +142,112 @@ h3 {
     font-family: nexa;
     font-weight: 100;
 }
+
+.eventstext{
+    padding-right: 50px;
+}
+
+
+.exhibitionstext {
+    padding-left: 250px;
+    text-align: right;
+    font-size: 22px;
+}
+
+.eventstext {
+    padding-right: 250px;
+    text-align: left;
+    font-size: 22px;
+}
+
+#more {
+    color: #907a4b;
+    font-family: 20px;
+    font-weight: bold;
+    padding: 10px 10px 50px 0px;
+    background-color: #907a4b00;
+    border-width: 0px;
+}
+
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 130px 160px;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px; 
+}
+
+footer h4 {
+    color: #907a4b;
+    font-size: 25px;
+    font-family: nexa;
+    font-weight: 300;
+}
+  
+.footerinfo, .footerlocation, .footersupport, .footeropening {
+    flex-basis: 20%;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.footerinfo, .footerlocation, .footersupport {
+    margin-right: 10px;
+}
+
+footer a{
+    color: #907a4b;
+}
+
+#footersign {
+    text-align: center!;
+}
+  
+/* .footersign {
+    flex-basis: 100%;
+    text-align: center;
+    margin-top: 20px;
+} */
+  
   
 
-@media screen and (max-width: 768px) {
-    .two-columns {
+ @media screen and (max-width: 768px) {
+    .events-exhibitions {
       flex-direction: column;
     }
     
-    .column {
+    .events, .exhibitions{
       width: 100%;
       margin: 20px 0;
     }
-}
+
+    h3 {
+        font-size: 28px; 
+        font-family: nexa;
+        font-weight: 100;
+    }
+    
+    .exhibitionstext, .eventstext{
+        padding-left: 250px;
+        text-align: center;
+        font-size: 22px;
+    }
+    
+    #more {
+        color: #907a4b;
+        font-family: 20px;
+        font-weight: bold;
+        padding: 10px 10px 50px 0px;
+        background-color: #907a4b00;
+        border-width: 0px;
+    }
+
+    
+} 
 
 
   
