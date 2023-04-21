@@ -23,6 +23,7 @@ body {
         padding: 60px 160px;
     }
 
+<<<<<<< HEAD
     .dmenu ul li a:hover {
         color: #907a4b;
     }
@@ -53,6 +54,10 @@ body {
     .dmenu .logo img {
         height: 50px;
     }
+=======
+
+/* Desktop HERO */
+>>>>>>> 9ece5d6129105febef962c7aed6e659c9eaab81c
 
     .mobile-menu {
         display: none;
@@ -263,6 +268,7 @@ body {
     }
 
 
+<<<<<<< HEAD
     .events-exhibitions {
       flex-direction: column;
       background-color: #EFEDE0;
@@ -276,6 +282,18 @@ body {
     
     .events-exhibitions img {
         width: 80%;
+=======
+@media screen and (max-width: 768px) {
+    .events-exhibitions {
+        display: block;
+        margin-bottom: 20px;
+
+    }
+    
+    .events, .exhibitions{
+        width: 100%;
+        margin: 20px 0;
+>>>>>>> 9ece5d6129105febef962c7aed6e659c9eaab81c
     }
 
     h3 {
@@ -285,7 +303,10 @@ body {
     }
     
     .exhibitionstext, .eventstext{
+<<<<<<< HEAD
         padding-left: 0px 20px;
+=======
+>>>>>>> 9ece5d6129105febef962c7aed6e659c9eaab81c
         text-align: center;
         font-size: 22px;
     }
@@ -298,7 +319,11 @@ body {
         background-color: #907a4b00;
         border-width: 0px;
     }
+    img {
+        max-width: 70%;
+    }
 
+<<<<<<< HEAD
     /* Mobile Menu */
     .dmenu {
         display: none;
@@ -311,12 +336,19 @@ body {
     }
 
     /* Mobile Footer */
+=======
+    /* Footer */
+>>>>>>> 9ece5d6129105febef962c7aed6e659c9eaab81c
     footer {
         display: block;
         justify-content: space-between;
         align-items: center;
         flex-wrap: wrap;
+<<<<<<< HEAD
         padding: 130px 160px;
+=======
+        padding: 80px 50px;
+>>>>>>> 9ece5d6129105febef962c7aed6e659c9eaab81c
         background-color: #000;
         color: #fff;
         font-size: 16px; 
@@ -324,12 +356,17 @@ body {
 
     footer h4 {
         color: #907a4b;
+<<<<<<< HEAD
         font-size: 25px;
+=======
+        font-size: 22px;
+>>>>>>> 9ece5d6129105febef962c7aed6e659c9eaab81c
         font-family: nexa;
         font-weight: 300;
     }
   
     .footerinfo, .footerlocation, .footersupport, .footeropening {
+<<<<<<< HEAD
         flex-basis: 20%;
         text-align: left;
         box-sizing: border-box;
@@ -346,18 +383,32 @@ body {
     }
 
     footer a {
+=======
+        text-align: center;
+        box-sizing: border-box;
+        padding-bottom: 10px;
+    }
+
+    footer a{
+>>>>>>> 9ece5d6129105febef962c7aed6e659c9eaab81c
         color: #907a4b;
     }
 
     #footersign {
+<<<<<<< HEAD
         text-align: center;
         padding-top: 30px;
     }
 
     
+=======
+        text-align: center!;
+    }
+  
+    .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+>>>>>>> 9ece5d6129105febef962c7aed6e659c9eaab81c
 } 
-
-
-  
-
-  
