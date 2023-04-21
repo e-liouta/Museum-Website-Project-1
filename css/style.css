@@ -52,6 +52,7 @@ nav .logo img {
     height: 50px;
 }
 
+
 /* Desktop HERO */
 
 .hero {
@@ -215,14 +216,16 @@ footer a{
   
   
 
- @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .events-exhibitions {
-      flex-direction: column;
+        display: block;
+        margin-bottom: 20px;
+
     }
     
     .events, .exhibitions{
-      width: 100%;
-      margin: 20px 0;
+        width: 100%;
+        margin: 20px 0;
     }
 
     h3 {
@@ -232,7 +235,6 @@ footer a{
     }
     
     .exhibitionstext, .eventstext{
-        padding-left: 250px;
         text-align: center;
         font-size: 22px;
     }
@@ -245,11 +247,46 @@ footer a{
         background-color: #907a4b00;
         border-width: 0px;
     }
+    img {
+        max-width: 70%;
+    }
 
-    
+    /* Footer */
+    footer {
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 80px 50px;
+        background-color: #000;
+        color: #fff;
+        font-size: 16px; 
+    }
+
+    footer h4 {
+        color: #907a4b;
+        font-size: 22px;
+        font-family: nexa;
+        font-weight: 300;
+    }
+  
+    .footerinfo, .footerlocation, .footersupport, .footeropening {
+        text-align: center;
+        box-sizing: border-box;
+        padding-bottom: 10px;
+    }
+
+    footer a{
+        color: #907a4b;
+    }
+
+    #footersign {
+        text-align: center!;
+    }
+  
+    .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
 } 
-
-
-  
-
-  
