@@ -9,33 +9,33 @@
 		<nav class="dmenu">
 			<!-- <div class="desktopmenu"> -->
 				<ul class="left-menu">
-			  		<li><a href="#">Home</a></li>
-			  		<li><a href="#">Events</a></li>
-			  		<li><a href="#">Exhibitions</a></li>
+			  		<li><a href="index.html">Home</a></li>
+			  		<li><a href="pages/events.html">Events</a></li>
+			  		<li><a href="pages/exhibitions.html">Exhibitions</a></li>
 				</ul>
 				<a class="logo" href="index.html"><img src="images/logo-secondary.png"></a>
 				<ul class="right-menu">
-			  		<li><a href="#">Tickets</a></li>
-			  		<li><a href="#">Contact</a></li>
+			  		<li><a href="pages/tickets.html">Tickets</a></li>
+			  		<li><a href="pages/contact.html">Contact</a></li>
 				</ul>
 			<!-- </div> -->
 		</nav>
 
-		<!-- Mobile Menu -->
+		<!-- Mobile or Tablet Menu -->
+		<div id="myNav" class="overlay">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<div class="overlay-content">
+			  <a href="index.html">Home</a>
+			  <a href="pages/events.html">Events</a>
+			  <a href="pages/exhibitions.html">Exhibitions</a>
+			  <a href="pages/tickets.html">Tickets</a>
+			  <a href="pages/contact.html">Contact</a>
+			</div>
+		</div>
 		<div class="mobile-menu">
+			<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
 			<a class="mlogo" href="index.html"><img src="images/logo-secondary.png"></a>
-			<!-- <button class="toogle-button">&#9776;</button> -->
-			<ul class="toogle-menu" id="myLinks">
-			  <li><a href="#">Home </a></li>
-			  <li><a href="#">Events</a></li>
-			  <li><a href="#">Exhibitions</a></li>
-			  <li><a href="#">Tickets</a></li>
-			  <li><a href="#">Contact</a></li>
-			</ul>
-			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-				<i class="fa fa-bars"></i>
-			  </a>
-		</div> 
+		</div>
 
 		<!-- Hero -->
 		<section class="hero">
@@ -44,7 +44,7 @@
 				<p class="introtext">The Archaeological Museum of Thessaloniki is one of the largest museums in Greece and the central museum of northern Greece. All visitors are welcome to experience its unique collections of ancient artefacts as well as its rich and extrovert cultural activities.</p>
 				<div class="buttons">
 					<button id="about">ABOUT</button>
-					<button id="bookaticket">BOOK A TICKET</button>
+					<button id="bookaticket" onclick="window.location.href='pages/tickets.html';">BOOK A TICKET</button>
 				</div>
 			</div>
 		</section>
@@ -55,12 +55,12 @@
 			  <img src="images/upcoming-events.png" alt="Upcoming Events" width="720px">
 			  <h3 id="eventshead">UPCOMING</br>EVENTS</h3> 
 			  <p class="eventstext">Happening in the Museum! Learn about our current and upcoming events.</p>
-			  <button id="more">MORE &#8594;</button>
+			  <button id="more" onclick="window.location.href='pages/events.html';">MORE &#8594;</button>
 			</div>
 			<div class="exhibitions">
 			  <h3 id="exhead">SPECIAL</br>EXHIBITIONS</h3>
 			  <p class="exhibitionstext">The permanent exhibitions include unique masterpieces of classical greek art. Each motnth we host a scecial exhibition.</p>
-			  <button id="more">MORE &#8594;</button></br>
+			  <button id="more" onclick="window.location.href='pages/exhibitions.html';">MORE &#8594;</button></br>
 			  <img src="images/special-exhibitions.png" alt="Special Exhibitions" width="720px">
 			</div>
 		  </section>
