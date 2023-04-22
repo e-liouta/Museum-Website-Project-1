@@ -23,7 +23,6 @@ body {
         padding: 60px 160px;
     }
 
-<<<<<<< HEAD
     .dmenu ul li a:hover {
         color: #907a4b;
     }
@@ -54,10 +53,6 @@ body {
     .dmenu .logo img {
         height: 50px;
     }
-=======
-
-/* Desktop HERO */
->>>>>>> 9ece5d6129105febef962c7aed6e659c9eaab81c
 
     .mobile-menu {
         display: none;
@@ -217,10 +212,13 @@ body {
   
 /* Small Screens */
 @media screen and (max-width: 768px) {
+
+    
     .hero {
         background-image: url('../images/call-to-action-front.png');
         background-size: cover;
         height: 60vh; /* height of the viewport */
+        padding: 40px 0px;
     }
   
     .hero-content {
@@ -243,12 +241,16 @@ body {
         padding: 0px;
     }
 
-    #about {
+    .buttons {
         display: block;
+        align-items: center;
+    }
+
+    #about {
         width: 250px;
         height: 60px;
-        align-items: center;
         border-radius: 5px;
+        margin-bottom: 20px;
         background-color: #907a4b;
         border: solid 4px #907a4b;
         font-size: 20px;
@@ -256,10 +258,8 @@ body {
     }
 
     #bookaticket {
-        display: block;
         width: 250px;
         height: 60px;
-        align-items: center;
         border-radius: 5px;
         border: solid 4px #907a4b;
         background-color: rgba(217, 217, 217, 0);
@@ -267,8 +267,6 @@ body {
         color: #907a4b;
     }
 
-
-<<<<<<< HEAD
     .events-exhibitions {
       flex-direction: column;
       background-color: #EFEDE0;
@@ -282,73 +280,77 @@ body {
     
     .events-exhibitions img {
         width: 80%;
-=======
-@media screen and (max-width: 768px) {
-    .events-exhibitions {
-        display: block;
-        margin-bottom: 20px;
 
-    }
-    
-    .events, .exhibitions{
-        width: 100%;
-        margin: 20px 0;
->>>>>>> 9ece5d6129105febef962c7aed6e659c9eaab81c
     }
 
     h3 {
-        font-size: 28px; 
+        font-size: 25px; 
         font-family: nexa;
         font-weight: 100;
     }
     
-    .exhibitionstext, .eventstext{
-<<<<<<< HEAD
-        padding-left: 0px 20px;
-=======
->>>>>>> 9ece5d6129105febef962c7aed6e659c9eaab81c
-        text-align: center;
-        font-size: 22px;
-    }
-    
     #more {
         color: #907a4b;
-        font-family: 20px;
+        font-family: 18px;
         font-weight: bold;
-        padding: 10px 10px 50px 0px;
+        padding: 10px 10px;
         background-color: #907a4b00;
         border-width: 0px;
+        margin-bottom: 20px;
     }
+
     img {
         max-width: 70%;
     }
 
-<<<<<<< HEAD
     /* Mobile Menu */
     .dmenu {
         display: none;
     }
-    .moblile-menu {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+
+    .mobile-menu {
+        overflow: hidden;
         background-color: #000;
+        position: relative;
+    }
+      
+    .mobile-menu .toogle-menu {
+        display: none;
+    }
+      
+    .mobile-menu a {
+        color: #000;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+      
+    .mobile-menu a.icon {
+        background: black;
+        color: #fff;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+      
+    .mobile-menu a:hover {
+        color: black;
     }
 
-    /* Mobile Footer */
-=======
+    .active {
+        background-color: #907a4b;
+        color: white;
+      }
+
     /* Footer */
->>>>>>> 9ece5d6129105febef962c7aed6e659c9eaab81c
     footer {
         display: block;
         justify-content: space-between;
         align-items: center;
         flex-wrap: wrap;
-<<<<<<< HEAD
-        padding: 130px 160px;
-=======
         padding: 80px 50px;
->>>>>>> 9ece5d6129105febef962c7aed6e659c9eaab81c
         background-color: #000;
         color: #fff;
         font-size: 16px; 
@@ -356,17 +358,13 @@ body {
 
     footer h4 {
         color: #907a4b;
-<<<<<<< HEAD
         font-size: 25px;
-=======
-        font-size: 22px;
->>>>>>> 9ece5d6129105febef962c7aed6e659c9eaab81c
         font-family: nexa;
         font-weight: 300;
     }
   
     .footerinfo, .footerlocation, .footersupport, .footeropening {
-<<<<<<< HEAD
+
         flex-basis: 20%;
         text-align: left;
         box-sizing: border-box;
@@ -383,32 +381,12 @@ body {
     }
 
     footer a {
-=======
-        text-align: center;
-        box-sizing: border-box;
-        padding-bottom: 10px;
-    }
-
-    footer a{
->>>>>>> 9ece5d6129105febef962c7aed6e659c9eaab81c
         color: #907a4b;
     }
 
     #footersign {
-<<<<<<< HEAD
+
         text-align: center;
         padding-top: 30px;
     }
-
-    
-=======
-        text-align: center!;
-    }
-  
-    .logo {
-    font-size: 24px;
-    font-weight: bold;
-  }
-  
->>>>>>> 9ece5d6129105febef962c7aed6e659c9eaab81c
 } 
