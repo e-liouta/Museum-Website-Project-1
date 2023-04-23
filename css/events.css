@@ -14,12 +14,10 @@ body {
 @media only screen and (min-width: 768px) {
 
     /* Desktop HERO */
-
     .hero {
         background-image: url('../images/events-header.png');
         background-size: cover;
         text-align: center;
-        /* height: 70vh;  */
     }
   
     .hero-content {
@@ -27,19 +25,99 @@ body {
         padding: 160px; 
         text-align: right; 
         font-family: nexa;
+        text-align: center;
     }
   
     .hero-content h2 {
+        display: block;
         font-size: 48px; 
         font-family: nexa;
         font-weight: 100;
+        margin: 0px;
     }
 
-    #homelink a {
-        color: #000;
+    .hero-content h4 {
+        display: block;
+        font-size: 20px;
         font-family: nexa;
-        font-weight: 100;
+        font-weight: 300;
+        margin: 0px;
     }
+
+    .events-link {
+        color: #907a4b;
+    }
+      
+    .home-link {
+        color: white;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    /* Events */
+
+    .week {
+        padding: 50px 160px;
+        background-color: #FFFEFB;
+    }
+
+    .week img {
+        width: 247px;
+        height: auto;
+    }
+
+    .eventbox {
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+        border: 2px solid #907a4b;
+        border-radius: 5px;
+        padding: 40px 100px;
+    }
+ 
+    .eventinfo {
+        padding-left: 60px;
+    }
+
+    .week h3 #weekdate {
+        font-size: 40px;
+        color: #000;
+        margin: 0px;
+        font-weight: 100px;
+    }
+
+    #monthyear {
+        font-size: 0px;
+        color: #907a4b;
+        margin: 0px;
+        padding: 0px;
+        font-weight: 100px;
+    }
+
+    #moredate {
+        font-size: 0px;
+        color: #907a4b;
+        margin: 0px;
+        padding: 0px;
+        font-weight: bold
+    }
+
+    #title {
+        font-size: 30px;
+        color: #000;
+        margin: 0px;
+        padding: 0px;
+        font-weight: 100px;
+    }
+
+    #moretext {
+        font-size: 22px;
+        color: #000;
+        margin: 0px;
+        padding: 0px;
+        font-weight: 100px;
+    } 
 
     /* Splitted menu desktop */
     .dmenu {
@@ -86,6 +164,10 @@ body {
         display: none;
     }
 
+    #myNav {
+        display: none;
+    }
+
     /* Footer */
     footer {
         display: flex;
@@ -127,7 +209,52 @@ body {
 /* Tablet of other small screens */
 @media (min-width:769px) and (max-width:1024px){
 
+    /* Desktop HERO */
+    .hero {
+        background-image: url('../images/events-header.png');
+        background-size: cover;
+        text-align: center;
+    }
+  
+    .hero-content {
+        color: #fff; 
+        padding: 160px; 
+        text-align: right; 
+        font-family: nexa;
+        text-align: center;
+    }
+  
+    .hero-content h2 {
+        display: block;
+        font-size: 48px; 
+        font-family: nexa;
+        font-weight: 100;
+        margin: 0px;
+    }
+
+    .hero-content h4 {
+        display: block;
+        font-size: 20px;
+        font-family: nexa;
+        font-weight: 300;
+        margin: 0px;
+    }
+
+    .events-link {
+        color: #907a4b;
+    }
+      
+    .home-link {
+        color: white;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+
     /* Mobile Menu */
+
     .dmenu {
         display: none;
     }
@@ -232,6 +359,51 @@ body {
   
 /* Mobile Screens */
 @media screen and (max-width: 768px) {
+
+
+
+    /* Desktop HERO */
+    .hero {
+        background-image: url('../images/events-header.png');
+        background-size: cover;
+        text-align: center;
+    }
+  
+    .hero-content {
+        color: #fff; 
+        padding: 160px; 
+        text-align: right; 
+        font-family: nexa;
+        text-align: center;
+    }
+  
+    .hero-content h2 {
+        display: block;
+        font-size: 40px; 
+        font-family: nexa;
+        font-weight: 100;
+        margin: 0px;
+    }
+
+    .hero-content h4 {
+        display: block;
+        font-size: 18px;
+        font-family: nexa;
+        font-weight: 300;
+        margin: 0px;
+    }
+
+    .events-link {
+        color: #907a4b;
+    }
+      
+    .home-link {
+        color: white;
+    }
+
+    a {
+        text-decoration: none;
+    }
 
     /* Mobile Menu */
     .dmenu {

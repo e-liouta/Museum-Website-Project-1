@@ -54,7 +54,7 @@ body {
         height: 50px;
     }
 
-    .mobile-menu {
+    .mobile-menu,.overlay {
         display: none;
     }
 
