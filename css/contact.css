@@ -13,6 +13,91 @@ body {
 
 @media only screen and (min-width: 768px) {
 
+    /* Desktop HERO */
+    .hero {
+        background-image: url('../images/events-header.png');
+        background-size: cover;
+        text-align: center;
+    }
+  
+    .hero-content {
+        color: #fff; 
+        padding: 160px; 
+        text-align: right; 
+        font-family: nexa;
+        text-align: center;
+    }
+  
+    .hero-content h2 {
+        display: block;
+        font-size: 48px; 
+        font-family: nexa;
+        font-weight: 100;
+        margin: 0px;
+    }
+
+    .hero-content h4 {
+        display: block;
+        font-size: 20px;
+        font-family: nexa;
+        font-weight: 300;
+        margin: 0px;
+    }
+
+    .events-link {
+        color: #907a4b;
+    }
+      
+    .home-link {
+        color: white;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    /* Services */
+    .contact {
+        padding: 160px;
+        background-color: #FFFEFB;
+        text-align: center;
+    }
+
+    .contact h2 {
+        font-size: 45px;
+        font-weight: 300;
+        color: #000;
+        margin: 0px;
+        padding: 0px 0px 80px 0px;
+    }
+
+    .contactoptions {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 120px;
+    }
+
+    .location, .phone, .email {
+        background-color: #EFEDE0;
+        padding: 50px;
+        text-align: left;
+    }
+
+    .location h3, .phone h3, .email h3 {
+        color: #000;
+        font-size: 25px;
+        font-weight: 400;
+        padding: 0px;
+        margin-right: 0px 0px 30px 0px;
+    }   
+
+    .location p, .phone p, .email p {
+        color: #000;
+        font-size: 20px;
+        padding: 0px;
+        margin: 0px;
+    }    
+
     /* Splitted menu desktop */
     .dmenu {
         display: flex;
@@ -54,7 +139,11 @@ body {
         height: 50px;
     }
 
-    .mobile-menu {
+    .mobile-menu, .overlay {
+        display: none;
+    }
+
+    #myNav {
         display: none;
     }
 
@@ -99,7 +188,51 @@ body {
 /* Tablet of other small screens */
 @media (min-width:769px) and (max-width:1024px){
 
+    /* Desktop HERO */
+    .hero {
+        background-image: url('../images/events-header.png');
+        background-size: cover;
+        text-align: center;
+    }
+  
+    .hero-content {
+        color: #fff; 
+        padding: 160px; 
+        text-align: right; 
+        font-family: nexa;
+        text-align: center;
+    }
+  
+    .hero-content h2 {
+        display: block;
+        font-size: 48px; 
+        font-family: nexa;
+        font-weight: 100;
+        margin: 0px;
+    }
+
+    .hero-content h4 {
+        display: block;
+        font-size: 20px;
+        font-family: nexa;
+        font-weight: 300;
+        margin: 0px;
+    }
+
+    .events-link {
+        color: #907a4b;
+    }
+      
+    .home-link {
+        color: white;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
     /* Mobile Menu */
+
     .dmenu {
         display: none;
     }
@@ -204,6 +337,51 @@ body {
   
 /* Mobile Screens */
 @media screen and (max-width: 768px) {
+
+
+
+    /* Desktop HERO */
+    .hero {
+        background-image: url('../images/events-header.png');
+        background-size: cover;
+        text-align: center;
+    }
+  
+    .hero-content {
+        color: #fff; 
+        padding: 160px; 
+        text-align: right; 
+        font-family: nexa;
+        text-align: center;
+    }
+  
+    .hero-content h2 {
+        display: block;
+        font-size: 40px; 
+        font-family: nexa;
+        font-weight: 100;
+        margin: 0px;
+    }
+
+    .hero-content h4 {
+        display: block;
+        font-size: 18px;
+        font-family: nexa;
+        font-weight: 300;
+        margin: 0px;
+    }
+
+    .events-link {
+        color: #907a4b;
+    }
+      
+    .home-link {
+        color: white;
+    }
+
+    a {
+        text-decoration: none;
+    }
 
     /* Mobile Menu */
     .dmenu {
