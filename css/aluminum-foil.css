@@ -15,7 +15,7 @@ body {
 
     /* Desktop HERO */
     .hero {
-        background-image: url('../images/events-header.png');
+        background-image: url('../images/aluminum-foil-event.png');
         background-size: cover;
         text-align: center;
     }
@@ -56,80 +56,94 @@ body {
         text-decoration: none;
     }
 
-    /* Events */
+    /* About the event */
 
-    .week {
-        padding: 50px 160px;
-        background-color: #FFFEFB;
+    .aboutevent {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 50px;
+        padding: 160px;
+        background-color: #EFEDE0;
     }
-
-    .week img {
-        width: 247px;
-        height: auto;
+      
+    .abouttext {
+        padding-right: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
-
-    .week h3 {
-        font-size: 40px;
+      
+    .abouttext h2 {
+        font-size: 45px;
+        font-weight: 300;
         color: #000;
         margin: 0px;
         padding: 0px;
-        font-weight: 300;   
     }
 
-    .week h4 {
-        font-size: 20px;
-        color: #907a4b;
-        margin: 0px 0px 50px 0px;
-        padding: 0px; 
-        font-weight: 300; 
-
-    }
-
-    .eventbox {
-        display: grid;
-        grid-template-columns: 1fr 4fr;
-        border: 2px solid #907a4b;
-        border-radius: 5px;
-        padding: 40px 100px;
-        align-content: center;
-        margin-bottom: 100px;
-    }
-
-    .eventbox:hover {
-        background-color: #907a4b;
-
-        .eventinfo h3 {
-            color: #fff;
-        }
-    }
- 
-    .eventinfo {
-        padding-left: 60px;
-    }
-
-    .eventinfo h3 {
+    .abouttext h3 {
         font-size: 20px;
         color: #907a4b;
         margin: 0px;
         padding: 0px;
         font-weight: bold
     }
-
-    .eventinfo h2 {
-        font-size: 30px;
-        color: #000;
-        margin: 0px 0px 20px 0px;
-        padding: 0px;
-        font-weight: 100;
+      
+    .abouttext p {
+        font-size: 22px;
+        margin-bottom: 20px;
     }
 
-    .eventinfo p {
-        font-size: 22px;
+    .aboutimg {
+        text-align: center;
+    }
+      
+    .aboutimg img {
+        width: 550px;
+        height: auto;
+    }
+
+    /* Services */
+    .services {
+        padding: 160px;
+        background-color: #FFFEFB;
+        text-align: center;
+    }
+
+    .services h2 {
+        font-size: 45px;
+        font-weight: 300;
         color: #000;
         margin: 0px;
+        padding: 0px 0px 80px 0px;
+    }
+
+    .threeservices {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 120px;
+    }
+
+    .history, .design, .craft {
+        background-color: #EFEDE0;
+        padding: 50px;
+        text-align: left;
+    }
+
+    .history h3, .design h3, .craft h3 {
+        color: #000;
+        font-size: 25px;
+        font-weight: 400;
         padding: 0px;
-        font-weight: 100px;
-    } 
+        margin-right: 0px 0px 30px 0px;
+    }   
+
+    .history p, .design p, .craft p {
+        color: #000;
+        font-size: 20px;
+        padding: 0px;
+        margin: 0px;
+    }    
 
     /* Splitted menu desktop */
     .dmenu {
@@ -264,79 +278,91 @@ body {
         text-decoration: none;
     }
 
-  
-    /* Events */
-    .week {
-        padding: 50px 80px;
-        background-color: #FFFEFB;
-    }
+    /* About the event */
 
-    .week img {
-        width: 247px;
-        height: auto;
-        margin-bottom: 30px;
+    .aboutevent {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 80px;
+        background-color: #EFEDE0;
     }
-
-    .week h3 {
-        font-size: 30px;
+      
+    .abouttext {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+      
+    .abouttext h2 {
+        font-size: 45px;
+        font-weight: 300;
         color: #000;
         margin: 0px;
         padding: 0px;
-        font-weight: 300;   
     }
 
-    .week h4 {
-        font-size: 18px;
-        color: #907a4b;
-        margin: 0px 0px 50px 0px;
-        padding: 0px; 
-        font-weight: 300; 
-
-    }
-
-    .eventbox {
-        display: grid;
-        grid-template-columns: 1fr;
-        border: 2px solid #907a4b;
-        border-radius: 5px;
-        padding: 40px;
-        align-content: center;
-        text-align: center;
-        margin-bottom: 100px;
-    }
-
-    .eventbox:hover {
-        background-color: #907a4b;
-
-        .eventinfo h3 {
-            color: #fff;
-        }
-    }
-
-    .eventinfo h3 {
+    .abouttext h3 {
         font-size: 20px;
         color: #907a4b;
         margin: 0px;
         padding: 0px;
         font-weight: bold
     }
-
-    .eventinfo h2 {
-        font-size: 25px;
-        color: #000;
-        margin: 0px 0px 20px 0px;
-        padding: 0px;
-        font-weight: 100;
+      
+    .abouttext p {
+        font-size: 22px;
+        margin-bottom: 20px;
     }
 
-    .eventinfo p {
-        font-size: 20px;
+    .aboutimg {
+        text-align: center;
+    }
+      
+    .aboutimg img {
+        width: 550px;
+        height: auto;
+    }
+
+    /* Services */
+    .services {
+        padding: 80px;
+        background-color: #FFFEFB;
+        text-align: center;
+    }
+
+    .services h2 {
+        font-size: 45px;
+        font-weight: 300;
         color: #000;
         margin: 0px;
-        padding: 0px;
-        font-weight: 100px;
-    } 
+        padding: 0px 0px 80px 0px;
+    }
 
+    .threeservices {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .history, .design, .craft {
+        background-color: #EFEDE0;
+        padding: 50px;
+        text-align: center;
+    }
+
+    .history h3, .design h3, .craft h3 {
+        color: #000;
+        font-size: 25px;
+        font-weight: 400;
+        padding: 0px;
+        margin-right: 0px 0px 30px 0px;
+    }   
+
+    .history p, .design p, .craft p {
+        color: #000;
+        font-size: 20px;
+        padding: 0px;
+        margin: 0px;
+    }   
 
     /* Mobile Menu */
 
@@ -490,77 +516,91 @@ body {
         text-decoration: none;
     }
 
-        /* Events */
-    .week {
-        padding: 50px;
-        background-color: #FFFEFB;
+    /* About the event */
+    .aboutevent {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 80px;
+        background-color: #EFEDE0;
     }
-
-    .week img {
-        width: 247px;
-        height: auto;
-        margin-bottom: 30px;
+      
+    .abouttext {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
     }
-
-    .week h3 {
-        font-size: 30px;
+      
+    .abouttext h2 {
+        font-size: 35px;
+        font-weight: 300;
         color: #000;
         margin: 0px;
         padding: 0px;
-        font-weight: 300;   
     }
 
-    .week h4 {
+    .abouttext h3 {
         font-size: 18px;
-        color: #907a4b;
-        margin: 0px 0px 50px 0px;
-        padding: 0px; 
-        font-weight: 300; 
-
-    }
-
-    .eventbox {
-        display: grid;
-        grid-template-columns: 1fr;
-        border: 2px solid #907a4b;
-        border-radius: 5px;
-        padding: 40px;
-        align-content: center;
-        text-align: center;
-        margin-bottom: 50px;
-    }
-
-    .eventbox:hover {
-        background-color: #907a4b;
-
-        .eventinfo h3 {
-            color: #fff;
-        }
-    }
-    
-    .eventinfo h3 {
-        font-size: 20px;
         color: #907a4b;
         margin: 0px;
         padding: 0px;
         font-weight: bold
     }
-
-    .eventinfo h2 {
-        font-size: 25px;
-        color: #000;
-        margin: 0px 0px 20px 0px;
-        padding: 0px;
-        font-weight: 100;
+      
+    .abouttext p {
+        font-size: 20px;
+        margin-bottom: 20px;
     }
 
-    .eventinfo p {
-        font-size: 20px;
+    .aboutimg {
+        text-align: center;
+    }
+      
+    .aboutimg img {
+        width: 550px;
+        height: auto;
+    }
+
+    /* Services */
+    .services {
+        padding: 80px;
+        background-color: #FFFEFB;
+        text-align: center;
+    }
+
+    .services h2 {
+        font-size: 35px;
+        font-weight: 300;
         color: #000;
         margin: 0px;
+        padding: 0px 0px 30px 0px;
+    }
+
+    .threeservices {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .history, .design, .craft {
+        background-color: #EFEDE0;
+        padding: 50px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .history h3, .design h3, .craft h3 {
+        color: #000;
+        font-size: 22px;
+        font-weight: 400;
         padding: 0px;
-        font-weight: 100px;
-    } 
+        margin-right: 0px 0px 30px 0px;
+    }   
+
+    .history p, .design p, .craft p {
+        color: #000;
+        font-size: 18px;
+        padding: 0px;
+        margin: 0px;
+    }  
 
     /* Mobile Menu */
     .dmenu {
