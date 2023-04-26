@@ -56,7 +56,12 @@ body {
         text-decoration: none;
     }
 
-    /* Services */
+    /* Contact Options */
+
+    .smallmap, .mobilemap {
+        display: none;
+    }
+
     .contact {
         padding: 160px;
         background-color: #FFFEFB;
@@ -153,27 +158,10 @@ body {
         justify-content: space-between;
         align-items: center;
         flex-wrap: wrap;
-        padding: 130px 160px;
+        padding: 20px 160px;
         background-color: #000;
         color: #fff;
         font-size: 16px; 
-    }
-
-    footer h4 {
-        color: #907a4b;
-        font-size: 25px;
-        font-family: nexa;
-        font-weight: 300;
-    }
-  
-    .footerinfo, .footerlocation, .footersupport, .footeropening {
-        flex-basis: 20%;
-        text-align: left;
-        box-sizing: border-box;
-    }
-
-    .footerinfo, .footerlocation, .footersupport {
-        margin-right: 10px;
     }
 
     footer a {
@@ -231,8 +219,53 @@ body {
         text-decoration: none;
     }
 
-    /* Mobile Menu */
+    /* contact options */
 
+    .mobilemap, .desktopmap {
+        display: none;
+    }
+
+    .contact {
+        padding: 80px;
+        background-color: #FFFEFB;
+        text-align: center;
+    }
+
+    .contact h2 {
+        font-size: 45px;
+        font-weight: 300;
+        color: #000;
+        margin: 0px;
+        padding: 0px 0px 80px 0px;
+    }
+
+    .contactoptions {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .location, .phone, .email {
+        background-color: #EFEDE0;
+        padding: 50px;
+        text-align: center;
+    }
+
+    .location h3, .phone h3, .email h3 {
+        color: #000;
+        font-size: 25px;
+        font-weight: 400;
+        padding: 0px;
+        margin-right: 0px 0px 30px 0px;
+    }   
+
+    .location p, .phone p, .email p {
+        color: #000;
+        font-size: 20px;
+        padding: 0px;
+        margin: 0px;
+    }   
+
+    /* Mobile Menu */
     .dmenu {
         display: none;
     }
@@ -303,7 +336,7 @@ body {
         justify-content: space-between;
         align-items: center;
         flex-wrap: wrap;
-        padding: 50px 20px;
+        padding: 20px 20px;
         background-color: #000;
         color: #fff;
         font-size: 16px; 
@@ -383,6 +416,53 @@ body {
         text-decoration: none;
     }
 
+    /* contact options */
+
+    .desktopmap, .smallmap {
+        display: none;
+    }
+
+    .contact {
+        padding: 80px;
+        background-color: #FFFEFB;
+        text-align: center;
+    }
+
+    .contact h2 {
+        font-size: 35px;
+        font-weight: 300;
+        color: #000;
+        margin: 0px;
+        padding: 0px 0px 30px 0px;
+    }
+
+    .contactoptions {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .location, .phone, .email {
+        background-color: #EFEDE0;
+        padding: 50px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .location h3, .phone h3, .email h3 {
+        color: #000;
+        font-size: 25px;
+        font-weight: 400;
+        padding: 0px;
+        margin-right: 0px 0px 30px 0px;
+    }   
+
+    .location p, .phone p, .email p {
+        color: #000;
+        font-size: 20px;
+        padding: 0px;
+        margin: 0px;
+    }   
+
     /* Mobile Menu */
     .dmenu {
         display: none;
@@ -454,7 +534,7 @@ body {
         justify-content: space-between;
         align-items: center;
         flex-wrap: wrap;
-        padding: 80px 50px;
+        padding: 10px 20px;
         background-color: #000;
         color: #fff;
         font-size: 16px; 
