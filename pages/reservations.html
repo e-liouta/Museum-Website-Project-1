@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-		<link rel="stylesheet" href="../css/contact.css">
+		<link rel="stylesheet" href="../css/reservations.css">
 		<script src="../script/main.js"></script>
     </head>
     <body>
@@ -37,118 +37,89 @@
 			<a class="mlogo" href="index.html"><img src="images/logo-secondary.png"></a>
 		</div>
 
-		<form id="reservform">
-			<fieldset>
-			  <!-- <legend></legend> -->
-				<div class="name">
-				  <label for="name">Full Name</label>
-				  <div>
-					<input type="text" id="name" name="name" placeholder="Full Name" pattern="[a-zA-Z]+" onkeypress="checknameifnum()" onblur="checknameifnum()" required title="*** Only characters are allowed">
-					<div id="nameError" class="error"></div>
-				  </div>
-				</div>
+		<!-- Hero -->
+		<section class="hero">
+			<div class="hero-content">
+				<h2>RESERVATIONS</h2>
+				<h4><a href="../index.html"><span class="home-link">Home | </span></a><a href="../pages/reservations.html"><span class="res-link">Reservations</span></a></h4>
+			</div>
+		</section>
 
-				<div class="mail">
-					<label for="email">Email</label>
-					<input type="email" id="email" name="email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required title="*** Please enter a valid mail">
-					<div id="nameError" class="error"></div>
-				</div>
+		<section id="reservation">
+			<form id="reservform">
+				<fieldset>
+			  	<!-- <legend></legend> -->
+					<div class="name">
+				  	<label for="name">Full Name</label>
+				  	<div>
+						<input type="text" id="name" name="name" placeholder="Full Name" pattern="[a-zA-Z]+" onkeypress="checknameifnum()" onblur="checknameifnum()" required title="*** Only characters are allowed">
+						<div id="nameError" class="error"></div>
+				  	</div>
+					</div>
 
-				<div class="phonenumber">
-					<label for="phonenumber">Phone Number</label>
-					<input type="number" id="phonenumber" name="phonenumber" placeholder="Phone Number"  required title="*** Only numbers allowed">
-					<div id="nameError" class="error"></div>
-				</div>
+					<div class="mail">
+						<label for="email">Email</label>
+						<input type="email" id="email" name="email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required title="*** Please enter a valid mail">
+						<div id="nameError" class="error"></div>
+					</div>
 
-				<div class="choosevent">
-					<label for="choosevent">Choose Event</label>
-					<select name="events" id="eventlist">
-						<option value="aluminum-foil">Let's create with aluminum foil</option>
-						<option value="creative-studio">Adult's creative studio</option>
-						<option value="thematic-tour">Thematic tour</option>
-						<option value="arch-lecture">Archaeological lecture</option>
-					</select>
-				</div>
+					<div class="phonenumber">
+						<label for="phonenumber">Phone Number</label>
+						<input type="number" id="phonenumber" name="phonenumber" placeholder="Phone Number"  required title="*** Only numbers allowed">
+						<div id="nameError" class="error"></div>
+					</div>
+
+					<div class="choose">
+						<div class="chooseevent">
+							<label for="chooseevent">Choose Event</label>
+							<select name="events" id="eventlist">
+								<option value="" disabled selected hidden>Choose Event</option>
+								<option value="aluminum-foil">Let's create with aluminum foil</option>
+								<option value="creative-studio">Adult's creative studio</option>
+								<option value="thematic-tour">Thematic tour</option>
+								<option value="arch-lecture">Archaeological lecture</option>
+							</select>
+						</div>
+						<div class="chooseevent">
+							<label for="choosevent">Choose Event</label>
+							<select name="events" id="eventlist">
+								<option value="" disabled selected hidden>Choose Event</option>
+								<option value="aluminum-foil">Let's create with aluminum foil</option>
+								<option value="creative-studio">Adult's creative studio</option>
+								<option value="thematic-tour">Thematic tour</option>
+								<option value="arch-lecture">Archaeological lecture</option>
+							</select>
+						</div>
+					</div>
+
+					
 				
-				<div class="eventsdate">
-					<label for="eventsdate">Date</label>
-					<input type="date" id="date" name="date" required>
-					<div id="nameError" class="error"></div>
-				</div>
+					<div class="eventsdate">
+						<label for="eventsdate">Date</label>
+						<input type="date" id="date" name="date" required>
+						<div id="nameError" class="error"></div>
+					</div>
 
-				<div class="numofseats">
-					<label for="numofseats">Number of seats</label>
-					<input type="number" id="numofseats" name="numofseats" placeholder="e.c. 2"  required title="*** Only numbers allowed">
-					<div id="nameError" class="error"></div>
-				</div>
+					<div class="numofseats">
+						<label for="numofseats">Number of seats</label>
+						<input type="number" id="numofseats" name="numofseats" placeholder="e.c. 2"  required title="*** Only numbers allowed">
+						<div id="nameError" class="error"></div>
+					</div>
 
-				<div class="student">
-					<input type="checkbox" id="student">
-					<label for="student">I am a Student</label>
-				</div>
-			
-				<ul class="showcase">
-					<li>
-						<div class="seat"></div>
-						<small>AVAILABLE</small>
-					</li>
-					<li>
-						<div class="seat selected"></div>
-						<small>SELECTED</small>
-					</li>
-					<li>
-						<div class="seat occupied"></div>
-						<small>OCCUPIED</small>
-					</li>
-				</ul>
-			
-				<ul class="showcase">
-					<li>
-						<div class="seat"></div>
-						<small>AVAILABLE</small>
-					</li>
-					<li>
-						<div class="seat selected"></div>
-						<small>SELECTED</small>
-					</li>
-					<li>
-						<div class="seat occupied"></div>
-						<small>OCCUPIED</small>
-					</li>
-				</ul>
-				<div class="container">	
-					<div class="row">
-						<div class="seat"><input type="checkbox" id="student"></div>
-						<div class="seat"><input type="checkbox" id="student"></div>
-						<div class="seat"><input type="checkbox" id="student"></div>
-						<div class="seat"><input type="checkbox" id="student"></div>
-						<div class="occupied"><input type="checkbox" id="student"></div>
+					<div class="student">
+						<input type="checkbox" id="student">
+						<label for="student">I am a Student</label>
 					</div>
-					<div class="row">
-						<div class="seat"><input type="checkbox" id="student"></div>
-						<div class="seat"><input type="checkbox" id="student"></div>
-						<div class="seat"><input type="checkbox" id="student"></div>
-						<div class="seat"><input type="checkbox" id="student"></div>
-						<div class="seat"><input type="checkbox" id="student"></div>
-					</div>
-					<div class="row">
-						<div class="seat"><input type="checkbox" id="student"></div>
-						<div class="occupied"><input type="checkbox" id="student"></div>
-						<div class="seat"><input type="checkbox" id="student"></div>
-						<div class="seat"><input type="checkbox" id="student"></div>
-						<div class="seat"><input type="checkbox" id="student"></div>
-					</div>
-				</div>
-				<p class="text">You have selected <span id="count">0</span> seats for a price of $ <span id="total">0</span></p>
 			  
-			  <div class="buttons">
-				<button type="submit" onclick="check()">Submit</button>
-			  </div>
-			</fieldset>
+			  		<div class="buttons">
+						<button type="submit" onclick="check()">Submit</button>
+			  		</div>
+				</fieldset>
+			</section>
 
 		<Footer>
 			<div class="footerinfo">
-				<a class="logo-footer" href="index.html"><img src="../../images/logo-secondary.png"></a>
+				<a class="logo-footer" href="index.html"><img src="../images/logo-secondary.png"></a>
 				<p id="foo-info">The Archaeological Museum of Thessaloniki is one of the largest museums in the country and the central museum of Northern Greece. With unique collections of ancient ...</p>
 			</div>
 			<div class="footerlocation">

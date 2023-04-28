@@ -198,6 +198,15 @@ body {
         border-width: 0px;
     }
 
+    #more:hover {
+        color: #000;
+        font-family: 20px;
+        font-weight: bold;
+        padding: 10px 10px 50px 0px;
+        background-color: #907a4b00;
+        border-width: 0px;
+    }
+
 
     /* Footer */
     footer {
