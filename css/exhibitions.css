@@ -72,9 +72,9 @@ body {
     }
 
     .triple {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 80px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
         align-content: center;
         margin-bottom: 100px;
         text-align: center;
@@ -259,7 +259,9 @@ body {
     }
 
     .triple {
-        display: grid;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
         grid-template-columns: 1fr;
         grid-gap: 80px;
         align-content: center;
