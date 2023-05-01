@@ -15,7 +15,7 @@ This project was developed using three core web technologies: HTML, CSS, and Jav
 ## Feautures
 This project is a fully responsive website that features an archaelogical museum. The inspirations was the archaeological museum of Thessaloniki. The project consist of 5 main pages: Home, Events, Exhibitions, Reservations and Contact Page and child pages for each Event. The Home page contains a welcome message and a short description of what anyone can view in the site. The Event's page has list of upcoming events, and the Exhibitions's page a grid with the current exhibitions. The Reservation's page has a reservation form where users can reserve their spot. The Contact Page has a Map with the exact museum's location and more contact information as well. 
 
+![image](images/presentation.png)
+
 ## Contributors
 This project was created by [Effie Liouta](https://github.com/e-liouta).
-
-![image](images/presentation.png)
