@@ -81,11 +81,16 @@ body {
         text-align: center;
     }
 
-    .name label, .mail label, .phonenumber label, .chooseevent label {
+    .name label, .mail label, .phonenumber label, .chooseevent label, .chooseexh label, .eventsdate label, .numofseats label {
         display: none;
     }
 
-    #name, #email, #phonenumber, select {
+    .student label {
+        color: #907a4b;
+        font-size: 20px;
+    }
+
+    #name, #email, #phonenumber, #date, #numofseats {
         border-radius: 5px;
         border: solid 1.5px #907a4b;
         margin: 20px 10px; 
@@ -95,24 +100,74 @@ body {
         width: 60%;
         font-family: nexa;
         font-size: 18px;
-        
+    }
+    
+    select {
+        border-radius: 5px;
+        border: solid 1.5px #907a4b;
+        margin: 20px 10px; 
+        padding: 20px 100px 20px 10px;
+        background-color: #FFFEFB;
+        color: #907a4b;
+        width: 68%;
+        font-family: nexa;
+        font-size: 18px;
+    }
+
+    input[type="checkbox"] {
+        display: none;
+    }
+
+    input[type="checkbox"] + label:before {
+        content: "";
+        display: inline-block;
+        width: 18px;
+        height: 18px;
+        margin-right: 10px;
+        border-radius: 50%;
+        border: 2px solid #907a4b;
+    }
+      
+    input[type="checkbox"]:checked + label:before {
+        background-color: #907a4b;
+        border-color: #907a4b;
+    }
+      
+    input[type="checkbox"] + label {
+        display: inline-flex;
+        align-items: center;
     }
 
     input::placeholder {
         color: #907a4b;
     }
 
-    .choose {
-        display: flex;
-        flex-direction: row;
-        width: 60%;
-        gap: 20px;
-        align-content: center;
-        padding: 0px;
-        align-items: center;
+    .buttons button {
+        width: 250px;
+        height: 60px;
+        margin-top: 50px;
+        padding: 20px 88px;
+        border-radius: 5px;
+        background-color: #907a4b;
+        border: solid 4px #907a4b;
+        font-size: 20px;
+        font-family: nexa;
+        color: #FFFEFB;
     }
 
-    
+    .buttons button:hover {
+        width: 250px;
+        height: 60px;
+        margin-top: 50px;
+        padding: 20px 88px;
+        border-radius: 5px;
+        background-color: #FFFEFB;
+        border: solid 4px #907a4b;
+        font-size: 20px;
+        font-family: nexa;
+        color: #907a4b;
+    }
+
 
     /* Splitted menu desktop */
     .dmenu {
@@ -246,6 +301,118 @@ body {
     a {
         text-decoration: none;
     }
+
+        /* Form */
+
+        #reservation {
+            background-color: #907a4b;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        fieldset {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            top: -80px;
+    
+            margin: 0 auto;
+            padding: 100px 80px;
+            width: 80%;
+          
+            border-radius: 50px;
+            background-color: #FFFEFB;
+            border-width: 0px;
+    
+            text-align: center;
+        }
+    
+        .name label, .mail label, .phonenumber label, .chooseevent label, .chooseexh label, .eventsdate label, .numofseats label {
+            display: none;
+        }
+    
+        .student label {
+            color: #907a4b;
+            font-size: 20px;
+        }
+    
+        #name, #email, #phonenumber, #date, #numofseats {
+            border-radius: 5px;
+            border: solid 1.5px #907a4b;
+            margin: 20px 10px; 
+            padding: 20px 100px 20px 10px;
+            background-color: #FFFEFB;
+            color: #907a4b;
+            width: 60%;
+            font-family: nexa;
+            font-size: 18px;
+        }
+        
+        select {
+            border-radius: 5px;
+            border: solid 1.5px #907a4b;
+            margin: 20px 10px; 
+            padding: 20px 100px 20px 10px;
+            background-color: #FFFEFB;
+            color: #907a4b;
+            width: 68%;
+            font-family: nexa;
+            font-size: 18px;
+        }
+    
+        input[type="checkbox"] {
+            display: none;
+        }
+    
+        input[type="checkbox"] + label:before {
+            content: "";
+            display: inline-block;
+            width: 18px;
+            height: 18px;
+            margin-right: 10px;
+            border-radius: 50%;
+            border: 2px solid #907a4b;
+        }
+          
+        input[type="checkbox"]:checked + label:before {
+            background-color: #907a4b;
+            border-color: #907a4b;
+        }
+          
+        input[type="checkbox"] + label {
+            display: inline-flex;
+            align-items: center;
+        }
+    
+        input::placeholder {
+            color: #907a4b;
+        }
+    
+        .buttons button {
+            width: 250px;
+            height: 60px;
+            margin-top: 50px;
+            padding: 20px 88px;
+            border-radius: 5px;
+            background-color: #907a4b;
+            border: solid 4px #907a4b;
+            font-size: 20px;
+            font-family: nexa;
+            color: #FFFEFB;
+        }
+    
+        .buttons button:hover {
+            width: 250px;
+            height: 60px;
+            margin-top: 50px;
+            padding: 20px 88px;
+            border-radius: 5px;
+            background-color: #FFFEFB;
+            border: solid 4px #907a4b;
+            font-size: 20px;
+            font-family: nexa;
+            color: #907a4b;
+        }
     
     /* Mobile Menu */
 
@@ -397,6 +564,118 @@ body {
 
     a {
         text-decoration: none;
+    }
+
+        /* Form */
+
+    #reservation {
+        background-color: #907a4b;
+        justify-content: center;
+        align-items: center;
+    }
+
+    fieldset {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: -80px;
+
+        margin: 0 auto;
+        padding: 100px 80px;
+        width: 70%;
+      
+        border-radius: 50px;
+        background-color: #FFFEFB;
+        border-width: 0px;
+
+        text-align: center;
+    }
+
+    .name label, .mail label, .phonenumber label, .chooseevent label, .chooseexh label, .eventsdate label, .numofseats label {
+        display: none;
+    }
+
+    .student label {
+        color: #907a4b;
+        font-size: 20px;
+    }
+
+    #name, #email, #phonenumber, #date, #numofseats {
+        border-radius: 5px;
+        border: solid 1.5px #907a4b;
+        margin: 20px 10px; 
+        padding: 20px 100px 20px 10px;
+        background-color: #FFFEFB;
+        color: #907a4b;
+        width: 70%;
+        font-family: nexa;
+        font-size: 20px;
+    }
+    
+    select {
+        border-radius: 5px;
+        border: solid 1.5px #907a4b;
+        margin: 20px 10px; 
+        padding: 20px 100px 20px 10px;
+        background-color: #FFFEFB;
+        color: #907a4b;
+        width: 90%;
+        font-family: nexa;
+        font-size: 18px;
+    }
+
+    input[type="checkbox"] {
+        display: none;
+    }
+
+    input[type="checkbox"] + label:before {
+        content: "";
+        display: inline-block;
+        width: 18px;
+        height: 18px;
+        margin-right: 10px;
+        border-radius: 50%;
+        border: 2px solid #907a4b;
+    }
+      
+    input[type="checkbox"]:checked + label:before {
+        background-color: #907a4b;
+        border-color: #907a4b;
+    }
+      
+    input[type="checkbox"] + label {
+        display: inline-flex;
+        align-items: center;
+    }
+
+    input::placeholder {
+        color: #907a4b;
+    }
+
+    .buttons button {
+        width: 250px;
+        height: 60px;
+        margin-top: 50px;
+        padding: 20px 88px;
+        border-radius: 5px;
+        background-color: #907a4b;
+        border: solid 4px #907a4b;
+        font-size: 20px;
+        font-family: nexa;
+        color: #FFFEFB;
+    }
+
+    .buttons button:hover {
+        width: 250px;
+        height: 60px;
+        margin-top: 50px;
+        padding: 20px 88px;
+        border-radius: 5px;
+        background-color: #FFFEFB;
+        border: solid 4px #907a4b;
+        font-size: 20px;
+        font-family: nexa;
+        color: #907a4b;
     }
 
 
