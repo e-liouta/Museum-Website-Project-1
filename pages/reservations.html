@@ -50,6 +50,10 @@
 			<form id="reservform">
 				<fieldset>
 			  	<!-- <legend></legend> -->
+					<div class="formcalltoaction">
+						<h2>Reserve your spot!</h2>
+					</div>
+
 					<div class="name">
 				  	<label for="name">Full Name</label>
 				  	<div>
@@ -106,6 +110,11 @@
 						<div id="nameError" class="error"></div>
 					</div>
 
+										
+					<div class="textarea">
+						<textarea rows="4" cols="50" name="questions">Questions...</textarea>
+					</div>
+
 					<div class="student">
 						<input type="checkbox" id="student">
 						<label for="student">I am a Student</label>
@@ -114,6 +123,7 @@
 			  		<div class="buttons">
 						<button type="submit" onclick="check()">Submit</button>
 			  		</div>
+
 				</fieldset>
 			</section>
 
