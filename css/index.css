@@ -156,8 +156,8 @@
     .hero {
         background-image: url('../images/call-to-action-front.png');
         background-size: cover;
-        height: 80vh; /* height of the viewport */
-        padding: 160px 0px 10px 0px;
+        height: 100%; /* height of the viewport */
+        padding: 160px 0px;
     }
   
     .hero-content {
@@ -171,11 +171,11 @@
     .hero-content h2 {
         font-size: 100px; 
         font-family: nexa;
-        font-weight: 100;
+        font-weight: 80;
     }
   
     .hero-content p {
-        font-size: 50px; 
+        font-size: 30px; 
         margin: 50px 20px; 
         padding: 0px;
         font-family: nexa;
@@ -194,7 +194,7 @@
         padding: 20px;
         background-color: #907a4b;
         border: solid 4px #907a4b;
-        font-size: 40px;
+        font-size: 30px;
         color: #000;
         margin-bottom: 50px;
     }
@@ -205,7 +205,7 @@
         border-radius: 5px;
         border: solid 4px #907a4b;
         background-color: rgba(217, 217, 217, 0);
-        font-size: 40px;
+        font-size: 30px;
         color: #907a4b;
     }
 
@@ -262,8 +262,8 @@
     .hero {
         background-image: url('../images/call-to-action-front.png');
         background-size: cover;
-        height: 80vh; /* height of the viewport */
-        padding: 40px 0px;
+        height: 100%; /* height of the viewport */
+        padding: 80px 0px;
     }
   
     .hero-content {

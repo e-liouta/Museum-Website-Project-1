@@ -54,6 +54,13 @@ body {
         height: 50px;
     }
 
+    .active {
+        text-decoration-style: dotted;
+        text-decoration: underline;
+        text-decoration-color: #907a4b;
+        text-decoration-thickness: 3px;
+    }
+
     .mobile-menu,.overlay {
         display: none;
     }
@@ -98,8 +105,8 @@ body {
 
 /* Tablet of other small screens */
 @media (min-width:769px) and (max-width:1024px){
-       /* Mobile Menu */
-       .dmenu {
+    /* Mobile Menu */
+    .dmenu {
         display: none;
     }
 
@@ -146,7 +153,7 @@ body {
     .overlay a {
         padding: 8px;
         text-decoration: none;
-        font-size: 36px;
+        font-size: 60px;
         color: #818181;
         display: block;
         transition: 0.3s;
@@ -207,8 +214,9 @@ body {
 
 /* Mobile Screens */
 @media screen and (max-width: 769px) {
-       /* Mobile Menu */
-       .dmenu {
+    
+    /* Mobile Menu */
+    .dmenu {
         display: none;
     }
 
@@ -255,7 +263,7 @@ body {
     .overlay a {
         padding: 8px;
         text-decoration: none;
-        font-size: 36px;
+        font-size: 70px;
         color: #818181;
         display: block;
         transition: 0.3s;
