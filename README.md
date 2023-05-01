@@ -17,3 +17,5 @@ This project is a fully responsive website that features an archaelogical museum
 
 ## Contributors
 This project was created by [Effie Liouta](https://github.com/e-liouta).
+
+![image](images/presentation.png)
