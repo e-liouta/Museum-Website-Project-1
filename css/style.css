@@ -271,34 +271,37 @@ body {
     }
   
     .hero-content p {
-        font-size: 50x; 
+        font-size: 40px; 
         margin: 50px 20px; 
         padding: 0px;
     }
 
     .buttons {
-        display: block;
-        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: ;
+        padding: 0px 50px;
+        /* align-items: center; */
     }
 
     #about {
-        width: 250px;
-        height: 60px;
+        width: 40%;
+        height: 150px;
         border-radius: 5px;
-        margin-bottom: 20px;
+        padding: 20px;
         background-color: #907a4b;
         border: solid 4px #907a4b;
-        font-size: 20px;
+        font-size: 40px;
         color: #000;
     }
 
     #bookaticket {
-        width: 250px;
-        height: 60px;
+        width: 40%;
+        height: 150px;
         border-radius: 5px;
         border: solid 4px #907a4b;
         background-color: rgba(217, 217, 217, 0);
-        font-size: 20px;
+        font-size: 40px;
         color: #907a4b;
     }
 
