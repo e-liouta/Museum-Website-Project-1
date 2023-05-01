@@ -187,6 +187,11 @@ body {
         box-sizing: border-box;
     }
     
+    .logo-footer img {
+        width: 50%;
+        margin-bottom: 50px;
+    }
+
     .footerinfo, .footerlocation, .footersupport {
         margin-right: 10px;
     }
@@ -278,34 +283,33 @@ body {
         color: #fff;
         font-size: 16px; 
     }
-
+    
     footer h4 {
         color: #907a4b;
         font-size: 25px;
         font-family: nexa;
         font-weight: 300;
     }
-  
+      
     .footerinfo, .footerlocation, .footersupport, .footeropening {
         text-align: center;
         box-sizing: border-box;
     }
-
-    .footersupport ul {
-        margin-left: -40px;
+    
+    .logo-footer img {
+        width: 50%;
+        margin-bottom: 50px;
     }
 
     .footerinfo, .footerlocation, .footersupport {
         margin-right: 10px;
-        text-align: center;
     }
-
+    
     footer a {
         color: #907a4b;
     }
-
+    
     #footersign {
         text-align: center;
-        padding-top: 30px;
     }
 }

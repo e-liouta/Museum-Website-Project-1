@@ -157,7 +157,7 @@
         background-image: url('../images/call-to-action-front.png');
         background-size: cover;
         height: 80vh; /* height of the viewport */
-        padding: 40px 0px;
+        padding: 160px 0px 10px 0px;
     }
   
     .hero-content {
@@ -175,15 +175,15 @@
     }
   
     .hero-content p {
-        font-size: 40px; 
+        font-size: 50px; 
         margin: 50px 20px; 
         padding: 0px;
+        font-family: nexa;
     }
 
     .buttons {
         display: flex;
         flex-direction: column;
-        padding: 0px 50px;
         align-items: center; 
     }
 
@@ -207,7 +207,6 @@
         background-color: rgba(217, 217, 217, 0);
         font-size: 40px;
         color: #907a4b;
-        margin-bottom: 50px;
     }
 
     /* Upcoming Events and Special Exhibitions */
@@ -232,21 +231,25 @@
 
     .exhibitionstext {
         padding-left: 0px;
-        font-size: 25px;
+        font-size: 30px;
+        font-family: nexa;
     }
 
     .eventstext {
         padding-right: 0px;
-        font-size: 25px;
+        font-size: 30px;
+        font-family: nexa;
     }
 
     .events-exhibitions img {
         width: 80%;
+        padding: 40px 0px;
     }
 
     #more {
         color: #907a4b;
-        font-family: 40px!important;
+        font-family: nexa;
+        font-size: 30px;
         font-weight: bold;
         background-color: #907a4b00;
         border-width: 0px;
@@ -311,7 +314,7 @@
         margin-bottom: 50px;
     }
 
-  /* Upcoming Events and Special Exhibitions */
+    /* Upcoming Events and Special Exhibitions */
     .events-exhibitions {
         display: flex;
         flex-direction: column-reverse;
@@ -333,21 +336,25 @@
 
     .exhibitionstext {
         padding-left: 0px;
-        font-size: 25px;
+        font-size: 30px;
+        font-family: nexa;
     }
 
     .eventstext {
         padding-right: 0px;
-        font-size: 25px;
+        font-size: 30px;
+        font-family: nexa;
     }
 
     .events-exhibitions img {
         width: 80%;
+        padding: 40px 0px;
     }
 
     #more {
         color: #907a4b;
-        font-family: 40px!important;
+        font-family: nexa;
+        font-size: 30px;
         font-weight: bold;
         background-color: #907a4b00;
         border-width: 0px;
