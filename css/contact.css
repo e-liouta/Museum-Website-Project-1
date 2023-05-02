@@ -1,4 +1,4 @@
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
 
     /* Desktop HERO */
     .hero {
@@ -92,7 +92,7 @@
 }
 
 /* Tablet of other small screens */
-@media (min-width:769px) and (max-width:1024px){
+@media (min-width:769px) and (max-width:1024px) {
 
     /* Desktop HERO */
     .hero {
@@ -143,6 +143,10 @@
         display: none;
     }
 
+    .smallmap {
+        display: flex;
+    }
+
     .contact {
         padding: 80px;
         background-color: #FFFEFB;
@@ -150,7 +154,7 @@
     }
 
     .contact h2 {
-        font-size: 45px;
+        font-size: 60px;
         font-weight: 300;
         color: #000;
         margin: 0px;
@@ -158,8 +162,9 @@
     }
 
     .contactoptions {
-        display: grid;
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
     }
 
     .location, .phone, .email {
@@ -170,15 +175,15 @@
 
     .location h3, .phone h3, .email h3 {
         color: #000;
-        font-size: 25px;
+        font-size: 50px;
         font-weight: 400;
         padding: 0px;
-        margin-right: 0px 0px 30px 0px;
+        margin: 0px 0px 20px 0px;
     }   
 
     .location p, .phone p, .email p {
         color: #000;
-        font-size: 20px;
+        font-size: 30px;
         padding: 0px;
         margin: 0px;
     }  
@@ -234,8 +239,12 @@
 
     /* contact options */
 
-    .desktopmap, .smallmap {
+    .smallmap, .desktopmap {
         display: none;
+    }
+
+    .mobilemap {
+        display: flex;
     }
 
     .contact {
@@ -245,37 +254,37 @@
     }
 
     .contact h2 {
-        font-size: 35px;
+        font-size: 60px;
         font-weight: 300;
         color: #000;
         margin: 0px;
-        padding: 0px 0px 30px 0px;
+        padding: 0px 0px 80px 0px;
     }
 
     .contactoptions {
-        display: grid;
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
     }
 
     .location, .phone, .email {
         background-color: #EFEDE0;
         padding: 50px;
         text-align: center;
-        margin-bottom: 20px;
     }
 
     .location h3, .phone h3, .email h3 {
         color: #000;
-        font-size: 25px;
+        font-size: 50px;
         font-weight: 400;
         padding: 0px;
-        margin-right: 0px 0px 30px 0px;
+        margin: 0px 0px 20px 0px;
     }   
 
     .location p, .phone p, .email p {
         color: #000;
-        font-size: 20px;
+        font-size: 30px;
         padding: 0px;
         margin: 0px;
-    } 
+    }  
 }
