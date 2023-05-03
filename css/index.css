@@ -15,12 +15,12 @@
         text-align: right;
         color: #fff; 
         padding: 160px; 
-        /* font-family: nexa; */
+        font-family: nexa;
     }
   
     .hero-content h2 {
         font-size: 48px; 
-        /* font-family: nexa; */
+        font-family: nexa;
         font-weight: 100;
     }
   
@@ -34,7 +34,7 @@
     .buttons {
         display: inline;
         justify-content: space-between;
-        /* font-family: nexa; */
+        font-family: nexa;
     }
 
     #about {
