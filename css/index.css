@@ -15,12 +15,12 @@
         text-align: right;
         color: #fff; 
         padding: 160px; 
-        font-family: nexa;
+        font-family: 'Montserrat', sans-serif;
     }
   
     .hero-content h2 {
         font-size: 48px; 
-        font-family: nexa;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 100;
     }
   
@@ -34,7 +34,7 @@
     .buttons {
         display: inline;
         justify-content: space-between;
-        font-family: nexa;
+        font-family: 'Montserrat', sans-serif;
     }
 
     #about {
@@ -111,7 +111,7 @@
 
     h3 {
         font-size: 28px; 
-        font-family: nexa;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 100;
     }
 
@@ -165,12 +165,12 @@
         padding: 0px; 
         text-align: center; 
         align-items: center;
-        font-family: nexa;
+        font-family: 'Montserrat', sans-serif;
     }
   
     .hero-content h2 {
         font-size: 100px; 
-        font-family: nexa;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 80;
     }
   
@@ -178,7 +178,7 @@
         font-size: 60px; 
         margin: 50px 20px; 
         padding: 0px;
-        font-family: nexa;
+        font-family: 'Montserrat', sans-serif;
     }
 
     .buttons {
@@ -225,20 +225,20 @@
 
     .events-exhibitions h3 {
         font-size: 50px; 
-        font-family: nexa;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 100;
     }
 
     .exhibitionstext {
         padding-left: 0px;
         font-size: 30px;
-        font-family: nexa;
+        font-family: 'Montserrat', sans-serif;
     }
 
     .eventstext {
         padding-right: 0px;
         font-size: 30px;
-        font-family: nexa;
+        font-family: 'Montserrat', sans-serif;
     }
 
     .events-exhibitions img {
@@ -248,7 +248,7 @@
 
     #more {
         color: #907a4b;
-        font-family: nexa;
+        font-family: 'Montserrat', sans-serif;
         font-size: 30px;
         font-weight: bold;
         background-color: #907a4b00;
@@ -271,12 +271,12 @@
         padding: 0px; 
         text-align: center; 
         align-items: center;
-        font-family: nexa;
+        font-family: 'Montserrat', sans-serif;
     }
   
     .hero-content h2 {
         font-size: 40px; 
-        font-family: nexa;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 100;
     }
   
@@ -330,20 +330,20 @@
 
     .events-exhibitions h3 {
         font-size: 50px; 
-        font-family: nexa;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 100;
     }
 
     .exhibitionstext {
         padding-left: 0px;
         font-size: 30px;
-        font-family: nexa;
+        font-family: 'Montserrat', sans-serif;
     }
 
     .eventstext {
         padding-right: 0px;
         font-size: 30px;
-        font-family: nexa;
+        font-family: 'Montserrat', sans-serif;
     }
 
     .events-exhibitions img {
@@ -353,7 +353,7 @@
 
     #more {
         color: #907a4b;
-        font-family: nexa;
+        font-family: 'Montserrat', sans-serif;
         font-size: 30px;
         font-weight: bold;
         background-color: #907a4b00;

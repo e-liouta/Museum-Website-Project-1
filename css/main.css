@@ -1,24 +1,11 @@
-/* @font-face {
-    font-family: nexa;
-    src: url('font/nexa-light.ttf');
-} */
-
-/* @font-face {
-    font-family: 'nexa';
-    src: url('font/Nexa-Light.woff2') format('woff2'),
-         url('font/Nexa-Light.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-} */
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
   
 body {
     width: 100%;
     margin: 0;
     padding: 0;
 
-    /* font-family: nexa; */
+    font-family: 'Montserrat', sans-serif;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -86,7 +73,7 @@ body {
     }
     
     .newsletter h2 {
-        font-family: nexa;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         font-size: 40px;
         color: #EFEDE0;
@@ -95,7 +82,7 @@ body {
     }
 
     .newsletter h4 {
-        font-family: nexa;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         font-size: 25px;
         color: #EFEDE0;
@@ -108,7 +95,7 @@ body {
         width: 100%;
         max-width: 445px;
         font-size: 20px;
-        font-family: nexa;
+        font-family: 'Montserrat', sans-serif;
         padding: 20px;
         line-height: 0;
         vertical-align: top;
@@ -138,7 +125,7 @@ body {
         padding: 16px;
         font-weight: normal;
         font-size: 20px;
-        font-family: nexa;
+        font-family: 'Montserrat', sans-serif;
         text-align: left;
         color: #fff;
         opacity: 0.5;
@@ -159,7 +146,7 @@ body {
     footer h4 {
         color: #907a4b;
         font-size: 25px;
-        font-family: nexa;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 300;
     }
   
@@ -259,7 +246,7 @@ body {
     }
     
     .newsletter h2 {
-        font-family: nexa;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 200;
         font-size: 40px;
         color: #EFEDE0;
@@ -268,7 +255,7 @@ body {
     }
 
     .newsletter h4 {
-        font-family: nexa;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 200;
         font-size: 25px;
         color: #EFEDE0;
@@ -281,7 +268,7 @@ body {
         width: 60%;
         max-width: 445px;
         font-size: 25px;
-        font-family: nexa;
+        font-family: 'Montserrat', sans-serif;
         padding: 20px;
         line-height: 0;
         vertical-align: top;
@@ -332,7 +319,7 @@ body {
     footer h4 {
         color: #907a4b;
         font-size: 25px;
-        font-family: nexa;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 300;
     }
       
@@ -459,7 +446,7 @@ body {
         width: 60%;
         max-width: 445px;
         font-size: 25px;
-        font-family: nexa;
+        font-family: 'Montserrat', sans-serif;
         padding: 20px;
         line-height: 0;
         vertical-align: top;
@@ -510,7 +497,7 @@ body {
     footer h4 {
         color: #907a4b;
         font-size: 25px;
-        font-family: nexa;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 300;
     }
       
