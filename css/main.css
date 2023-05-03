@@ -1,6 +1,14 @@
-@font-face {
+/* @font-face {
     font-family: nexa;
     src: url('font/nexa-light.ttf');
+} */
+
+@font-face {
+    font-family: 'nexa';
+    src: url('font/Nexa-Light.woff2') format('woff2'),
+         url('font/Nexa-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
   
 body {
